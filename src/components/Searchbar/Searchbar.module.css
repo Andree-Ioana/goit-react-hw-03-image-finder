@@ -1,0 +1,25 @@
+.searchContainer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(159, 102, 127);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputSearch {
+  padding: 5px 100px;
+  border: 1px solid rgb(211, 206, 206);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+}
+
+.iconSearch {
+  position: absolute;
+  right: 60%;
+  top: 3.8%;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
